@@ -1,0 +1,28 @@
+	*{
+	box-sizing:border-box;
+	}
+	div{
+	border:0px solid red;
+	min-height:100px;
+	padding: 10px 10px;
+	}
+	h2,h4{
+	font-family:arial-black sanserif;
+	}
+	.three{
+	padding:20px;
+	background-color:#89375F;
+	color:white;
+	text-align:center;
+	}
+	#p2{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	}	
+	.one{
+		background-color: #FA9884;
+	}
+	.two{
+		background-color: #FFE5CA;
+	}

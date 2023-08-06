@@ -1,0 +1,10 @@
+SELECT guest_fullname, guest_phone FROM guest JOIN gift ON guest.guest_id=gift.gift_id WHERE gift_name='cash'
+
+SELECT * FROM state JOIN guest ON state.state_id=guest.guest_state WHERE state_name='zamfara'
+
+SELECT * FROM guest JOIN gift JOIN state ON guest.guest_id=gift.gift_id=state.state_id WHERE guest_gender='female'
+
+SELECT * FROM guest WHERE guest_phone=''
+
+
+
